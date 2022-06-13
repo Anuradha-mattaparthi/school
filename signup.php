@@ -59,59 +59,59 @@ if ($conn->query($sql) === TRUE) {
                     <h1>signup</h1>
                   </div>
                      <div class="form-group">
-	<label>Type of person</label>
-	<select class="form-control" name="type_of_person" placeholder="Enter Type of person">
-		<option>Teacher</option>
-		<option>Student</option>
-	</select>
-   </div>
-<div class="form-group mt-3">
-	<label>FirstName</label>
-	<input type="text" class="form-control" name="fname" placeholder="Enter FirstName">
-</div>
-<div class="form-group mt-3">
-	<label>LastName</label>
-	<input type="text" class="form-control" name="lname"placeholder="Enter LastName ">
-</div>
-<div class="form-group mt-3">
-	<label>DOB</label>
-	<input type="date" class="form-control" name="dob"placeholder="Enter DOB">
-</div>
-<div class="form-group mt-3">
-	<label>SchoolName</label>
-	<input type="text" class="form-control" name="sname"placeholder="Enter SchoolName ">
-</div>
-<div class="form-group mt-3">
-	<label>CollegeName</label>
-	<input type="text" class="form-control" name="cname"placeholder="Enter CollegeName ">
-</div>
-<div class="form-group mt-3">
-	<label>FatherName</label>
-	<input type="text" class="form-control" name="fathername"placeholder="Enter FatherName">
-</div>
-<div class="form-group mt-3">
-	<label>MotherName</label>
-	<input type="text" class="form-control" name="mothername"placeholder="Enter Mothername">
-</div>
-<div class="form-group mt-3">
-	<label>Email</label>
-	<input type="email" class="form-control" name="email" required placeholder="Enter Email ">
-</div>
-<div class="form-group mt-3">
-	<label>ConfirmEmail</label>
-	<input type="email" class="form-control" name="cemail" required placeholder="Enter ConfirmEmail">
-</div>
-<div class="form-group mt-3">
-	<label>Password</label>
-	<input type="password" class="form-control" name="pass" required placeholder="Enter Password">
-</div>
-<div class="form-group mt-3">
-	<label>Confirmpassword</label>
-	<input type="password" class="form-control" name="cpass" required placeholder="Enter Confirm Password">
-</div>
-<div class="submit mt-3">
-<input type="submit" value="submit" name="submit" class="btn btn-primary">
-</div> 
+                        	<label>Type of person</label>
+                        	<select class="form-control" name="type_of_person" placeholder="Enter Type of person">
+                        		<option>Teacher</option>
+                        		<option>Student</option>
+                        	</select>
+                           </div>
+                        <div class="form-group mt-3">
+                        	<label>FirstName</label>
+                        	<input type="text" class="form-control" name="fname" placeholder="Enter FirstName">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>LastName</label>
+                        	<input type="text" class="form-control" name="lname"placeholder="Enter LastName ">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>DOB</label>
+                        	<input type="date" class="form-control" name="dob"placeholder="Enter DOB">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>SchoolName</label>
+                        	<input type="text" class="form-control" name="sname"placeholder="Enter SchoolName ">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>CollegeName</label>
+                        	<input type="text" class="form-control" name="cname"placeholder="Enter CollegeName ">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>FatherName</label>
+                        	<input type="text" class="form-control" name="fathername"placeholder="Enter FatherName">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>MotherName</label>
+                        	<input type="text" class="form-control" name="mothername"placeholder="Enter Mothername">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>Email</label>
+                        	<input type="email" class="form-control" name="email" required placeholder="Enter Email ">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>ConfirmEmail</label>
+                        	<input type="email" class="form-control" name="cemail" required placeholder="Enter ConfirmEmail">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>Password</label>
+                        	<input type="password" class="form-control" name="pass" required placeholder="Enter Password">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>Confirmpassword</label>
+                        	<input type="password" class="form-control" name="cpass" required placeholder="Enter Confirm Password">
+                        </div>
+                        <div class="submit mt-3">
+                        <input type="submit" value="submit" name="submit" class="btn btn-primary">
+                        </div> 
                     </div>
                </div>
            </div>

@@ -79,59 +79,59 @@ if ($conn->query($sql) === TRUE) {
                     <h1>Manage</h1>
                   </div>
                      <div class="form-group">
-	<label>Type of person</label>
-	<select class="form-control" name="type_of_person" placeholder="Type of person" value="<?php=$type_of_person ?>">
-		<option disabled>Teacher</option>
-		<option disabled>Student</option>
-	</select>
-   </div>
-<div class="form-group mt-3">
-	<label>FirstName</label>
-	<input type="text" class="form-control" name="fname" placeholder="Enter FirstName" value="<?= $fn ?>">
-</div>
-<div class="form-group mt-3">
-	<label>LastName</label>
-	<input type="text" class="form-control" name="lname"placeholder="Enter LastName" value="<?=$ln?>">
-</div>
-<div class="form-group mt-3">
-	<label>DOB</label>
-	<input type="date" class="form-control" name="dob"placeholder="Enter DOB" value="<?=$d?>">
-</div>
-<div class="form-group mt-3">
-	<label>SchoolName</label>
-	<input type="text" class="form-control" name="sname"placeholder="Enter SchoolName" value="<?=$sn?>">
-</div>
-<div class="form-group mt-3">
-	<label>CollegeName</label>
-	<input type="text" class="form-control" name="cname"placeholder="Enter CollegeName" value="<?=$cn?>">
-</div>
-<div class="form-group mt-3">
-	<label>FatherName</label>
-	<input type="text" class="form-control" name="fathername"placeholder="Enter FatherName" value="<?=$fa?>">
-</div>
-<div class="form-group mt-3">
-	<label>MotherName</label>
-	<input type="text" class="form-control" name="mothername"placeholder="Enter Mothername" value="<?=$mo?>">
-</div>
-<div class="form-group mt-3">
-	<label>Email</label>
-	<input type="email" class="form-control" name="email" required placeholder="Enter Email " value="<?=$em?>">
-</div>
-<div class="form-group mt-3">
-	<label>ConfirmEmail</label>
-	<input type="email" class="form-control" name="cemail" required placeholder="Enter ConfirmEmail" value="<?=$cem?>">
-</div>
-<div class="form-group mt-3">
-	<label>Password</label>
-	<input type="password" class="form-control" name="pass" required placeholder="Enter Password" value="<?=$pas?>">
-</div>
-<div class="form-group mt-3">
-	<label>Confirmpassword</label>
-	<input type="password" class="form-control" name="cpass" required placeholder="Enter Confirm Password" value="<?=$cpas?>">
-</div>
-<div class="submit mt-3">
-<input type="submit" value="submit" name="submit" class="btn btn-primary">
-</div> 
+                        	<label>Type of person</label>
+                        	<select class="form-control" name="type_of_person" placeholder="Type of person" value="<?php=$type_of_person ?>">
+                        		<option disabled>Teacher</option>
+                        		<option disabled>Student</option>
+                        	</select>
+                           </div>
+                        <div class="form-group mt-3">
+                        	<label>FirstName</label>
+                        	<input type="text" class="form-control" name="fname" placeholder="Enter FirstName" value="<?= $fn ?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>LastName</label>
+                        	<input type="text" class="form-control" name="lname"placeholder="Enter LastName" value="<?=$ln?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>DOB</label>
+                        	<input type="date" class="form-control" name="dob"placeholder="Enter DOB" value="<?=$d?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>SchoolName</label>
+                        	<input type="text" class="form-control" name="sname"placeholder="Enter SchoolName" value="<?=$sn?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>CollegeName</label>
+                        	<input type="text" class="form-control" name="cname"placeholder="Enter CollegeName" value="<?=$cn?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>FatherName</label>
+                        	<input type="text" class="form-control" name="fathername"placeholder="Enter FatherName" value="<?=$fa?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>MotherName</label>
+                        	<input type="text" class="form-control" name="mothername"placeholder="Enter Mothername" value="<?=$mo?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>Email</label>
+                        	<input type="email" class="form-control" name="email" required placeholder="Enter Email " value="<?=$em?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>ConfirmEmail</label>
+                        	<input type="email" class="form-control" name="cemail" required placeholder="Enter ConfirmEmail" value="<?=$cem?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>Password</label>
+                        	<input type="password" class="form-control" name="pass" required placeholder="Enter Password" value="<?=$pas?>">
+                        </div>
+                        <div class="form-group mt-3">
+                        	<label>Confirmpassword</label>
+                        	<input type="password" class="form-control" name="cpass" required placeholder="Enter Confirm Password" value="<?=$cpas?>">
+                        </div>
+                        <div class="submit mt-3">
+                        <input type="submit" value="submit" name="submit" class="btn btn-primary">
+                        </div> 
                     </div>
                </div>
            </div>

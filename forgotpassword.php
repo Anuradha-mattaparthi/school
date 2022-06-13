@@ -71,17 +71,17 @@ function getName($n) {
           $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
           $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
           $mail->Username   = 'anuradha.businesslabs@gmail.com';                     //SMTP username
-          $mail->Password   = 'Blabs@2022';                               //SMTP password
+          //$mail->Password   = 'fmbiislxkactotvr';                               //SMTP password
           $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
           $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
       
           //Recipients
           $mail->setFrom('from@example.com', 'Mailer');
           $mail->addAddress($email, $q["fname"].$q["lname"]);     //Add a recipient
-          $mail->addAddress('testblab8@gmail.com');               //Name is optional
-          $mail->addReplyTo('info@example.com', 'Information');
-          $mail->addCC('cc@example.com');
-          $mail->addBCC('bcc@example.com');
+         // $mail->addAddress('testblab8@gmail.com');               //Name is optional
+         // $mail->addReplyTo('info@example.com', 'Information');
+         // $mail->addCC('cc@example.com');
+         // $mail->addBCC('bcc@example.com');
       
           //Attachments
       
